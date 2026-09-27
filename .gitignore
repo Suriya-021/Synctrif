@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.production
+.env*.local
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Debug logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Supabase local
+supabase/.temp/
+
+# Vercel
+.vercel
