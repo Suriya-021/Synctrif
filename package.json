@@ -1,0 +1,21 @@
+{
+  "name": "synctrif",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter @synctrif/web dev",
+    "dev:worker": "pnpm --filter @synctrif/worker dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r clean"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
